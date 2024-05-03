@@ -1,0 +1,23 @@
+[package]
+name = "rust-fetch"
+version = "0.1.0"
+edition = "2021"
+description = "An easy to use reqwest wrapper for Rust"
+keywords = ["async", "node-fetch","fetch", "http", "reqwest"]
+authors = ["Daniele Luca <lucadaniele444@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1.6.0"
+reqwest = "0.12.4"
+serde_json = "1.0.116"
+serde = "1.0.200"
+serde_urlencoded = "0.7.1"
+serde-xml-rs = "0.6.0"
+anyhow = "1.0.82"
+thiserror = "1.0.59"
+
+[dev-dependencies]
+httpmock = "0.7.0"
+tokio = {version = "1.37.0", features = ["full"]}
