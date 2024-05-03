@@ -21,7 +21,7 @@ Add the following to your `Cargo.toml` file:
 [dependencies]
 rust_fetch = "0.1.0"
 ```
-
+basic example:
 
 ```rust
 use rust_fetch::Fetch;
